@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTelegramPlane, faDiscord } from "@fortawesome/free-brands-svg-icons";
+import { faTelegramPlane } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { useTranslation } from "react-i18next";
 import MD from "react-markdown";
