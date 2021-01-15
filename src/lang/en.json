@@ -1,0 +1,13 @@
+{
+  "nav_home": "Home",
+  "nav_projects": "Projects",
+  "nav_contact": "Contact",
+  "contact_title": "Contact Details",
+  "contact_info_p1": "If you have an offer or a job for me, then you can use the suggested communication methods below. I will try to respond to your message or letter within two to three days, of course, if it is not a weekend.",
+  "contact_info_p2": "Please, note that **I really prefer Telegram or Discord for any further discussions**.",
+  "contact_links_telega": "DM via Telegram",
+  "contact_links_discord": "Join my Discord",
+  "contact_links_email": "Email",
+  "index_paragraph_1": "I am a developer and I write code because I like it.\n\nI specialize in Web Application Development: Python, NodeJS. In my spare time I write plugins for Minecraft servers in Kotlin and/or Java.",
+  "index_paragraph_2": "Most likely you do not know me, so you can check out my projects. I made a selection of my most significant projects in a special section on this site. Of course, you can also explore my GitHub account - I try to make most of my projects open-sourced. I belive that open-sourced projects are extremely important for everyone."
+}

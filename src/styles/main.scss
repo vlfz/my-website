@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$theme-color: #eaa221;
+
+@import "./navbar.scss";
+@import "./helpers.scss";
+
+html {
+  height: 100vh;
+}
+
+body {
+  color: #dddddd;
+  font-family: "Montserrat", sans-serif;
+  background: #181818;
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+
+::selection {
+  background: $theme-color;
+}
+
+/** Customzied scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0c0c0c;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: darken(#0c0c0c, 10%);
+}
+
+/** Layout */
+.container-grid {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "navbar"
+    "content"
+    "footer";
+  min-height: 100vh;
+  justify-items: center;
+}
+
+.content {
+  grid-area: content;
+  max-width: 800px;
+  padding: 10px 30px;
+  margin: auto;
+}
+
+.footer {
+  grid-area: footer;
+  font-size: 14px;
+  opacity: 0.8;
+  font-weight: lighter;
+  user-select: none;
+}
+
+.button-in-row {
+  display: flex;
+  flex-wrap: wrap;
+}
