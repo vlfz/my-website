@@ -4,6 +4,7 @@ import IndexPage from "./pages/IndexPage";
 import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
 import ContactPage from "./pages/ContactPage";
+import ProjectsPage from "./pages/ProjectsPage";
 
 const App = () => {
   return (
@@ -17,6 +18,10 @@ const App = () => {
 
         <Route exact path="/contact">
           <ContactPage />
+        </Route>
+
+        <Route exact path="/projects">
+          <ProjectsPage />
         </Route>
 
         <Route path="/404">
