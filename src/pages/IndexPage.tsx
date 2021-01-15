@@ -11,10 +11,11 @@ const IndexPage = () => {
     <>
       <section className="content">
         <Img
+          alt="moretsu' avatar"
           className="avatar"
           src="https://github.com/MORET5U.png"
-          loader={<img src={OCTOCAT} className="avatar" />}
-          unloader={<img src={OCTOCAT} className="avatar" />}
+          loader={<img src={OCTOCAT} className="avatar" alt="octocat" />}
+          unloader={<img src={OCTOCAT} className="avatar" alt="octocat" />}
         />
         <h1 className="title-1">moretsu</h1>
 
