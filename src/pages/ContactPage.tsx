@@ -19,11 +19,11 @@ const ContactPage = () => {
         <hr className="divider" />
 
         <div className="button-in-row">
-          <a href="mailto:contact@moretsu.dev" className="text-link">
+          <a href="mailto:hello@sqdsh.top" className="text-link">
             <FontAwesomeIcon icon={faEnvelope} size="lg" /> {t("contact_links_email")}
           </a>
 
-          <a href="https://t.me/moretsu" className="text-link">
+          <a href="https://t.me/trustworthy_dev" className="text-link">
             <FontAwesomeIcon icon={faTelegramPlane} size="lg" /> {t("contact_links_telega")}
           </a>
         </div>
