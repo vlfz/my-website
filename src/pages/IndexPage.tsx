@@ -12,7 +12,7 @@ const IndexPage = () => {
         <h1 className="title-1">vlfz</h1>
 
         <MD source={t("index_paragraph_1")!} />
-        <MD source={t("index_paragraph_2")!} />
+        <a rel=\"me\" href=\"https://nether.sqdsh.top/@admin\">Mastodon</a>
       </section>
     </>
   );
